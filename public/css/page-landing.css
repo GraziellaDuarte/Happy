@@ -45,6 +45,8 @@ main h1 {
     margin: auto;
     transition: background 200ms;
     animation-delay: 250ms;
+    position: absolute;
+
 }
 
 .visit a:hover {
@@ -55,6 +57,10 @@ main h1 {
 /* desktop version*/
 
 @media (min-width:760px) {
+    #container {
+        /*shorthand backgroun: image repeat position/ size*/
+        background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);
+    }
     header {
         display: flex;
         align-items: center;
