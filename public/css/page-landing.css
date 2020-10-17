@@ -46,7 +46,6 @@ main h1 {
     transition: background 200ms;
     animation-delay: 250ms;
     position: absolute;
-
 }
 
 .visit a:hover {
